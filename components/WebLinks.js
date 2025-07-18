@@ -54,6 +54,11 @@ const Links = () => {
     return el.type === "install" && el.on
   });
 
+  // Get data for linkek section
+  const linkek = allLinks.filter((el) => {
+    return el.type === "linkek" && el.on
+  });
+
   // Get data for nfts
   const nfts = allLinks.filter((el) => {
     return el.type === "nft" && el.on
@@ -141,6 +146,26 @@ const Links = () => {
                     </LinkSection> : ''
               }
               {/* End Install Section */}
+
+              {/* linkek Section */}
+              {
+                linkek.length > 0 ?
+                    <LinkSection>
+                      <h3>{linkek[0].type}</h3>
+                      {
+                        linkek.map((i) => {
+                          return (
+                              <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
+                                <LinkBox>
+                                  <LinkTitle><img src={i.icon} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
+                                </LinkBox>
+                              </a>
+                          )
+                        })
+                      }
+                    </LinkSection> : ''
+              }
+              {/* End linkek Section */}
 
               {/* NFT Section */}
               {
