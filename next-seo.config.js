@@ -2,23 +2,23 @@ export default {
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        title: 'next lnks by realvjy',
-        url: 'https://vjy.me',
-        description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk.',
-        locale: 'en_EN',
-        keywords: 'designer, product designer, illustrator, indian designer, vijay verma, realvjy, illlustrations, indian illustrator, ui designer india, sushi design system, zomato designer, 3dicons, uiprint, vijay realvjy, indian ui designer, design india, overlayz, nft art',
+        title: 'Fürjes Dóra - Ötvös Iparművész',
+        url: 'https://info.furjesdora.hu',
+        description: '',
+        locale: 'hu_HU',
+        keywords: 'ötvös, ékszer, ékszertervező, iparművész, fürjes dora, furjesdora, jewelry, jewelry designer, jeweler, artisan',
         images: [
             {
-                width: 1200,
-                height: 630,
-                url: `https://vjy.me/preview.jpg`,
+                width: 322,
+                height: 288,
+                url: `https://i.postimg.cc/BvVXJdxQ/Screenshot-2025-07-19-003054.png`,
             },
         ],
-        site_name: 'realvjy',
+        site_name: 'Fürjes Dóra',
     },
-    twitter: {
+    /*twitter: {
         handle: '@realvjy',
         site: 'vjy.me',
         cardType: 'summary_large_image',
-    },
+    },*/
 };
