@@ -25,14 +25,14 @@ const webLinks = [
     // linkek section
     {
         title: 'Facebook oldalam',
-        url: 'https://www.facebook.com/furjesdora',
+        url: 'https://www.facebook.com/dora.furjes.7',
         type: 'linkek',
         icon: '/facebook.svg',
         on: true
     },
     {
         title: 'Galléria',
-        url: 'https://ezustekszer.weebly.com/eacutekszerek.html',
+        url: 'https://ezustekszer.weebly.com/n337i-eacutekszerek.html',
         type: 'linkek',
         icon: '/gallery2.svg',
         on: true
